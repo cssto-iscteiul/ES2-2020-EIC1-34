@@ -33,6 +33,7 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+    	App junit= new App();
+		assertEquals("Hello World!", junit.app());
     }
 }
